@@ -1,0 +1,9 @@
+Start
+    Prompt for n
+    While n < 1:
+        Display "Invalid" and re-prompt
+    Pattern A: for r=1..n print r stars
+    Pattern B: for r=n..1 print r stars
+    Pattern C: for r=1..n print (n−r) spaces then r stars
+    Pattern D: for r=n..1 print (n−r) spaces then r stars
+End

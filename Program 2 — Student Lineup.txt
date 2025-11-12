@@ -1,0 +1,20 @@
+Start
+    Prompt for file name
+    Attempt to open file
+    If file fails:
+        Display error and stop
+    Initialize count = 0
+    While file has another name:
+        Trim spaces
+        If name not empty:
+            If first name:
+                first = last = name
+            Else:
+                If name < first → first = name
+                If name > last → last = name
+            count = count + 1
+    If count == 0:
+        Display "No names found"
+    Else:
+        Display class size, first, and last
+End

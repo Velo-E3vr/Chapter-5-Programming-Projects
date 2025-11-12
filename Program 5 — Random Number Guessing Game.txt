@@ -1,0 +1,14 @@
+Start
+    Set low = 1, high = 100
+    Generate random number secret in [low, high]
+    attempts = 0
+    Loop:
+        Ask user for guess or 'q' to quit
+        If 'q' → reveal secret and stop
+        If not integer → print "Invalid" and continue
+        If out of range → print "Out of range" and continue
+        attempts = attempts + 1
+        If guess < secret → "Too low"
+        Else if guess > secret → "Too high"
+        Else → "Correct", print attempts, stop
+End

@@ -1,0 +1,13 @@
+Start
+    Prompt user for data file
+    Open file
+    If failed → stop
+    Read year and value pairs into list
+    Ignore lines with invalid or negative data
+    If list is empty → print "No data"
+    Find maximum value
+    scale = max / 50
+    For each (year, value):
+        stars = round(value / scale)
+        Print year + stars
+End
